@@ -1,0 +1,9 @@
+   Prefix Verb   URI Pattern               Controller#Action
+    hoges GET    /hoges(.:format)          hoges#index
+          POST   /hoges(.:format)          hoges#create
+ new_hoge GET    /hoges/new(.:format)      hoges#new
+edit_hoge GET    /hoges/:id/edit(.:format) hoges#edit
+     hoge GET    /hoges/:id(.:format)      hoges#show
+          PATCH  /hoges/:id(.:format)      hoges#update
+          PUT    /hoges/:id(.:format)      hoges#update
+          DELETE /hoges/:id(.:format)      hoges#destroy

@@ -1,9 +1,17 @@
-   Prefix Verb   URI Pattern               Controller#Action
-    hoges GET    /hoges(.:format)          hoges#index
-          POST   /hoges(.:format)          hoges#create
- new_hoge GET    /hoges/new(.:format)      hoges#new
-edit_hoge GET    /hoges/:id/edit(.:format) hoges#edit
-     hoge GET    /hoges/:id(.:format)      hoges#show
-          PATCH  /hoges/:id(.:format)      hoges#update
-          PUT    /hoges/:id(.:format)      hoges#update
-          DELETE /hoges/:id(.:format)      hoges#destroy
+      Prefix Verb   URI Pattern                  Controller#Action
+       hoges GET    /hoges(.:format)             hoges#index
+             POST   /hoges(.:format)             hoges#create
+    new_hoge GET    /hoges/new(.:format)         hoges#new
+   edit_hoge GET    /hoges/:id/edit(.:format)    hoges#edit
+        hoge GET    /hoges/:id(.:format)         hoges#show
+             PATCH  /hoges/:id(.:format)         hoges#update
+             PUT    /hoges/:id(.:format)         hoges#update
+             DELETE /hoges/:id(.:format)         hoges#destroy
+    foo_bars GET    /foo/bars(.:format)          foo/bars#index
+             POST   /foo/bars(.:format)          foo/bars#create
+ new_foo_bar GET    /foo/bars/new(.:format)      foo/bars#new
+edit_foo_bar GET    /foo/bars/:id/edit(.:format) foo/bars#edit
+     foo_bar GET    /foo/bars/:id(.:format)      foo/bars#show
+             PATCH  /foo/bars/:id(.:format)      foo/bars#update
+             PUT    /foo/bars/:id(.:format)      foo/bars#update
+             DELETE /foo/bars/:id(.:format)      foo/bars#destroy
